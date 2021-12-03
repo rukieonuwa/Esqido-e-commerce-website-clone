@@ -1,0 +1,1598 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.section1{
+    position: relative;
+}
+.sec1{
+    background-color: rgb(248, 23, 23);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    
+    
+}
+
+.emptycart{
+    position: absolute;
+    background-color: #f2f2f2;
+    height: 694px;
+    z-index: 2;
+    right: 0px;
+}
+.emptycart .heading{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    padding-left: 60px;
+}
+
+.emptycart .pcart{
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+.x button{
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.cartemptytext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 30px;
+    width: 320px;
+  padding-top: 50%;
+  
+}
+
+.cart-containerempty{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.cart-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.cartview{
+    position: fixed;
+    background-color: #f2f2f2;
+    height: 694px;
+    z-index: 2;
+    right: 0px;
+    
+}
+
+
+.heading{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    padding-left: 60px;
+}
+
+.pcart{
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 90px;
+}
+.x button{
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.cart_items{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+.cart_items h3{
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.cart_items p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+}
+.cart_img{
+    width: 150px;
+}
+.cart_img img{
+    width: 100%;
+}
+
+.cart_description{
+    width: 230px;
+}
+.quantity{
+    display: flex;
+    padding: 20px;
+}
+.quantity input{
+    width: 40px;
+    padding-left: 15px;
+}
+.remove_qty{
+    padding-left: 10px;
+}
+.remove_qty a{
+    color: black;
+    text-decoration: none;
+}
+.checkout{padding-top: 300px;
+    padding-left: 40%;
+}
+.checkout button{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px solid black;
+    outline: black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: background-color 0.6s ease;
+     transition: color 0.6s ease; 
+}
+
+.checkout button:hover{
+    background-color: #f2f2f2;
+    color: black;
+}
+
+
+.navigation{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('img/esq-website-v5-homepage-banner-promo-year-end-2020_1400x\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+.navigation1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+.navigate{
+    position: fixed;
+   top: 0px;
+   z-index: 1;
+   margin: 0;
+   width: 100%;
+   background-color: white;
+   background: white;
+   padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+.navigation_banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('img/esq-homepage-banner-cu-gel-eyeliner-hq_1400x.webp');
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+
+.list1 ul{
+    display: flex;
+    list-style: none;
+    margin-right: 35px;
+}
+.list1 ul li{
+    padding: 3px 30px 3px 20px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.list2 ul{
+    display: flex;
+    list-style: none;
+}
+
+.list2 ul li{
+    cursor: pointer;
+    padding: 3px 20px 3px 30px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.list2 .bold select{
+    font-weight: 500;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background: none;
+}
+.list2 button{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.image{
+    padding: 25px 100px 3px 5px;
+}
+
+.banner2{
+    position: relative;
+    height: 850px;
+   background-image: url('img/esq-homepage-banner-cu-gel-eyeliner-hq_1400x.webp');
+}
+.banner2 .shopnow{
+ display: flex;
+ flex-direction: column;
+ bottom: 30px;
+ position: absolute;
+ padding: 30px 30px 50px 50px;
+ 
+
+}
+
+.banner2_h5{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    display: none;
+    
+}
+
+ .banner2_p{
+    letter-spacing: 3px;
+    font-size: 20px;
+    display: none;
+    
+
+}
+
+.banner2_button{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    border: 1px black;
+    outline: black;
+    margin-left: 50px;
+    display: none;
+}
+.banner{
+    position: relative;
+    height: 850px;
+    background-image: url('img/esq-website-v5-homepage-banner-promo-year-end-2020_1400x\ cropped.png');
+}
+
+.dots{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+}
+.dot:hover{
+    background-color: rgb(36, 36, 36);
+   
+}
+
+ .banner .shopnow{ 
+    position: absolute;
+    bottom: 10px;
+    justify-content: center;
+    padding-left: 50%;
+}
+.banner .shopnow button{
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px black;
+    outline: black;
+    
+}
+
+.shop_dropdown{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+}
+
+.shop_dropdown .shop_list1 ul{
+    cursor: pointer;
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.shop_dropdown .shop_list1 ul li{
+    padding-top: 10px;
+}
+.shop_dropdown .shop_list1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.shop_dropdown .shop_list2 ul{
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.shop_dropdown .shop_list2 ul li{
+    padding-top: 10px;
+}
+.shop_dropdown .shop_list2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.shop_dropdown .shop_list3 ul{
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.shop_dropdown .shop_list3 ul li{
+    padding-top: 10px;
+}
+.shop_dropdown .shop_list3 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ .drop_down_companion_glue{
+        width: 300px;
+}
+
+ 
+ .drop_down_companion_glue .drop_down_companion_glue_img{
+   width: 300px;
+   transition: all 1s ease;
+ }
+ .drop_down_companion_glue .drop_down_companion_glue_img:hover{
+     transform: scale(1.1);
+ }
+
+
+ .drop_down_companion_glue .drop_down_companion_glue_img img{
+     width: 100%;
+ }
+ .drop_down_companion_glue .drop_down_companion_glue_text{
+     padding-top: 10px;
+     font-size: 16px;
+     letter-spacing: 2px;
+     text-align: center;
+ }
+ .drop_down_companion_glue .drop_down_companion_glue_text h5{
+     padding-bottom: 5px;
+ }
+
+ .drop_down_gel_eyeliner{
+    width: 300px;
+}
+ .drop_down_gel_eyeliner .drop_down_gel_eyeliner_img{
+  width: 300px;
+  transition: all 1s ease;
+  
+ }
+ .drop_down_gel_eyeliner .drop_down_gel_eyeliner_img:hover{
+     transform: scale(1.1);
+ }
+
+ .drop_down_gel_eyeliner .drop_down_gel_eyeliner_img img{
+     width: 100%;
+     
+ }
+
+ .drop_down_gel_eyeliner .drop_down_gel_eyeliner_text{
+    padding-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+ }
+ .drop_down_gel_eyeliner .drop_down_gel_eyeliner_text h5{
+     padding-bottom: 5px;
+ }
+
+.learn_dropdown{
+    background-color: white;
+    width: 200px;
+    margin-left: 100px;
+    height: 100px;
+}
+.learn_dropdown ul{
+    list-style: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding: 20px;
+    padding-left: 30px;
+}
+.learn_dropdown ul li{
+    padding-top: 5px;
+}
+
+.more_dropdown{
+    background-color: white;
+    width: 210px;
+    margin-left: 470px;
+}
+
+.more_dropdown ul{
+    cursor: pointer;
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 20px;
+    padding-left: 30px;
+    font-weight: 450;
+}
+
+.more_dropdown ul li{
+    padding-top: 5px;
+}
+
+
+
+.sec3{
+   background-color: #f2f2f2;
+}
+
+.sec3 .col1{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec3 .col1 h6{
+    padding-top: 20px;
+    font-weight: 450;
+    letter-spacing: 5px;
+    font-size: 23px;
+}
+.sec3 .col2{
+    margin: 50px;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+
+.sec3 .col2 .lash{
+    background-position: center;
+    background-size: cover;
+    height: 310px;
+    background-image: url('img/esqido-mink-lashes-little-black-lash_8d6a3dc2-49ed-40b3-a349-0b6ca2fb8975_400x.webp');
+    cursor: pointer;
+    transition: background-image 0.6s ease;
+}
+.sec3 .col2 .lash:hover{
+    background-image: url('img/unforgettable\ second\ image.jpg');
+}
+.sec3 .col2 .lash2{
+    cursor: pointer;
+    transition: background-image 0.6s ease;
+    margin-top: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 310px;
+    background-image: url('img/esqido-mink-lashes-starlet_a7b48944-3191-4593-bbd0-a72c057cc03c_400x.webp');
+}
+
+.sec3 .col2 .lash2:hover{
+    background-image: url('img/unforgettable\ second\ image.jpg');
+}
+.sec3 .col2 .lash2:hover .unforgettablelash{
+    display: none;
+}
+.sec3 .col2 .lash2:hover .priceoflash{
+    display: inline;
+}
+.sec3 .col2 p{
+    font-size: 14px;
+}
+.nameoflash{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.nameoflash .priceoflash{
+    display: none;
+    cursor: pointer;
+    transition: display 0.6s ease;
+}
+
+.nameoflash:hover .unforgettablelash{
+    display: none;
+}
+
+.nameoflash:hover .priceoflash{
+    display: inline;
+}
+
+
+.sec3 .col2 .nameoflash{
+    text-align: center;
+}
+.sec3 .col2 .priceoflash p{
+    color: red;
+    text-align: center;
+
+}
+.sec3 .col2 .priceoflash s{
+    color: black;
+}
+.sec3 .viewproducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.sec3 .viewproducts button{
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px black;
+    outline: black;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+.sec4{
+    background-color: #f2f2f2;
+    height: 700px;
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.sec4 .sec4img1{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 45px;
+   background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('img/esq-unisyn-false-eyelashes-collection-banner_750x900_crop_center.webp');
+   background-position: top center;
+   background-size: cover;
+   transition: all 2s ease-in-out;
+   cursor: pointer; 
+}
+.sec4 .sec4img1:hover{
+    transform: scale(1.1);
+} 
+
+.sec4 .sec4img2{
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60px;
+    background-position: bottom center;
+   background-size: cover;
+   background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('img/esq-mink-lashes-collection-banner_750x900_crop_center.webp');
+transition: all 2s ease-in-out;
+   cursor: pointer; 
+}
+.sec4 .sec4img2:hover{
+    transform: scale(1.1);
+} 
+.sec4 .sec4img3{
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 45px;
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: inherit;
+   background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('img/esqido-accessories-eyelash-companion-glue-open_370x230@2x.jpg');
+   transition: all 2s ease-in-out;
+   cursor: pointer; 
+}
+.sec4 .sec4img3:hover{
+    transform: scale(1.1);
+} 
+
+.sec4 .sec4img1 .sec4img1text, 
+.sec4 .sec4img2 .sec4img2text, 
+.sec4 .sec4img3 .sec4img3text{
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    color: white;
+}
+
+.sec4 .sec4img1 .sec4img1text h5,
+ .sec4 .sec4img2 .sec4img2text h5, 
+ .sec4 .sec4img3 .sec4img3text h5{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.sec4 .sec4img1 .sec4img1text p, 
+.sec4 .sec4img2 .sec4img2text p,
+ .sec4 .sec4img3 .sec4img3text p{
+     font-size: 13px;
+     letter-spacing: 3px;
+ }
+ .sec4 .sec4img1 .sec4img1text button, 
+.sec4 .sec4img2 .sec4img2text button,
+ .sec4 .sec4img3 .sec4img3text button{
+    padding: 15px;
+   width: 200px;
+    border: 1px white;
+    outline: white;
+    letter-spacing: 3px;
+    font-weight: 550;
+    font-size: 13px;
+ }
+
+ .sec5{
+    background-color: #f2f2f2;
+    display: flex;
+    padding-top: 40px;
+   
+ }
+
+ .sec5 .sec5text{
+     padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    color: rgb(29, 29, 29);
+    
+ }
+ .sec5 .sec5text h6{
+     font-size: 15px;
+     letter-spacing: 3px;
+     font-weight: 400;
+     
+    
+ }
+ .sec5 .sec5text h5{
+     font-size: 20px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     letter-spacing: 3px;
+     font-weight: 500;
+ }
+ .sec5 .sec5text p{
+     font-size: 14px;
+     letter-spacing: 1px;
+     
+     
+ }
+ .sec5 .sec5img{
+     padding-top: 30px;
+ }
+
+ .sec6{
+    background-color: #f2f2f2;
+    display: flex;
+
+ }
+
+ .sec6 .sec6img{
+     width: 1750px;
+    
+ }
+ .sec6 .sec6img img{
+     width: 100%;
+ }
+
+ .sec6 .sec6text{
+    padding-top: 150px;
+   display: flex;
+   flex-direction: column;
+   padding-left: 100px;
+   color: rgb(29, 29, 29);
+   
+}
+.sec6 .sec6text h6{
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    
+   
+}
+.sec6 .sec6text h5{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.sec6 .sec6text p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+    
+}
+.sec7{
+    background-color: #f2f2f2;
+    display: flex;
+   
+ }
+
+ .sec7 .sec7text{
+     padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    color: rgb(29, 29, 29);
+    
+ }
+ .sec7 .sec7text h6{
+     font-size: 15px;
+     letter-spacing: 3px;
+     font-weight: 400;
+     
+    
+ }
+ .sec7 .sec7text h5{
+     font-size: 20px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     letter-spacing: 3px;
+     font-weight: 500;
+ }
+ .sec7 .sec7text p{
+     font-size: 14px;
+     letter-spacing: 1px;
+        
+ }
+ 
+.sec8{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('img/esqido-mink-lashes-lash-guide-banner_1500x_70c2c35f-9a0e-46c4-a9c7-e13e3b51b207_1500x.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec8 .sec8text{
+    padding: 30px;
+}
+.sec8 .sec8text h5{
+    padding-bottom: 5px;
+    padding-right: 20px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.sec8 .sec8text .pro{
+    padding-left: 30px;
+}
+.sec8 .sec8text p{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+.sec8 .videoplaybutton{
+    padding-top: 20px;
+    width: 70px;
+    margin-left: 120px;
+transition: all 1s ease-in-out;
+   cursor: pointer; 
+}
+.sec8 .videoplaybutton:hover{
+    transform: scale(1.3);
+} 
+.sec8 .videoplaybutton img{
+    width: 100%;
+    
+}
+
+.sec_9{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    
+}
+
+.sec_9 .sec9_text{
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom: 60px;
+}
+.sec_9 .sec9_text p{
+    letter-spacing: 3px;
+    color: rgb(32, 32, 32);
+}
+.sec_9 .sec9_text h5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+    font-weight: 400;
+}
+
+.sec_9 .shay_mitchell{
+    display: flex; 
+     justify-content: space-evenly; 
+}
+.sec_9 .shay_mitchell .left_arrow{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.sec_9 .shay_mitchell .left_arrow:hover{
+    transform: scale(1.3);
+}
+
+.sec_9 .shay_mitchell .left_arrow img{
+    width: 100%;
+}
+.sec_9 .shay_mitchell .right_arrow{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.sec_9 .shay_mitchell .right_arrow:hover{
+    transform: scale(1.3);
+}
+
+.sec_9 .shay_mitchell .right_arrow img{
+    width: 100%;
+}
+
+.shay_mitchell_img{
+    width: 550px;
+    position: relative;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('img/Shay_Mitchell_-_Starlet_1200x.progressive_7d33af0d-4f61-44bd-bcfd-be1ed83b1fa7_600x.progressive.webp');
+}
+.shay_mitchell_img .white_dots{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 110px; 
+    
+}
+.big_dot{
+    cursor: pointer;
+    height: 50px;
+    width: 55px;
+    margin: 0 3px;
+    border: 2px solid #f3e5e5;
+    background-color: #f3e5e5;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 90%;
+    transition: all 1s ease;
+}
+.big_dot:hover{
+    transform: scale(1.3);
+}
+.small_dot{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 10px 1px 5px 13px ;
+    opacity: 100%;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+ .shay_mitchell_img .white_dots2{
+    display: flex;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 35%;
+} 
+.big_dot2{
+    cursor: pointer;
+    height: 50px;
+    width: 55px;
+    margin: 0 3px;
+    border: 2px solid #f3e5e5;
+    background-color: #f3e5e5;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 90%;
+    transition: all 1s ease;
+}
+.big_dot2:hover{
+    transform: scale(1.3);
+}
+.small_dot2{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 10px 1px 5px 13px ;
+    opacity: 100%;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.shay_mitchell_lashes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+.shay_mitchell_lashes .shay_mitchell_lashes_img{
+   height: 300px;
+   width: 100%;
+    background-image: url('img/esqido-mink-lashes-starlet_a7b48944-3191-4593-bbd0-a72c057cc03c_400x.webp');
+    background-position: center;
+    background-size: cover;
+    transition: background-image 0.6s ease;
+    cursor: pointer;
+}
+.shay_mitchell_lashes .shay_mitchell_lashes_img:hover{
+    background-image: url('img/littleblacklashsecondimage.jpg');
+}
+.shay_mitchell_lashes .shay_mitchell_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shay_mitchell_lashes .shay_mitchell_text p{
+    padding-top: 10px;
+    color: rgb(32, 32, 32);
+    letter-spacing: 3px;
+    font-size: 13px;
+   
+}
+.shay_mitchell_lashes .shay_mitchell_text .starlet{
+     color: rgb(19, 18, 18);
+     font-weight: 500;
+}
+
+.shay_mitchell_lashes .shay_mitchell_text button{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px solid black;
+    outline: black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: background-color 0.6s ease;
+     transition: color 0.6s ease; 
+}
+
+.shay_mitchell_lashes .shay_mitchell_text button:hover{
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.footer .sec1_footer{
+    padding: 30px;
+    padding-left: 50px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .sec1_footer h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+    color: rgb(32, 32, 32);
+    font-weight: 400;
+}
+
+.footer .sec1_footer ul{
+    font-size: 15px;
+    list-style: none;
+}
+.footer .sec1_footer li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 0.5px;
+    color: rgb(32, 32, 32);
+}
+.footer .sec1_footer p{
+    color: rgb(39, 38, 38);
+    letter-spacing: 0.5px;
+    padding: 5px 10px 0px 0px;
+    font-size: 15px;
+}
+.footer .sec1_footer .questions{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.footer .sec1_footer a{
+    color: rgb(32, 32, 32);
+}
+.footer_4{
+    padding-left: 30px;
+}
+.footer_4 input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-right: 100px;
+    font-size: 15px;
+    border: 1px solid rgb(82, 81, 81);
+    border-radius: 2px;
+
+}
+.footer_4 button{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px black;
+    outline: black;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer .social_media_accounts{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-right: 200px;
+    
+}
+.footer .social_media_accounts .facebook_icon{
+    width: 15px;
+}
+.footer .social_media_accounts .facebook_icon img{
+    width: 100%;
+}
+.footer .social_media_accounts .twitter_icon{
+    width: 15px;
+}
+.footer .social_media_accounts .twitter_icon img{
+    width: 100%;
+}
+.footer .social_media_accounts .instagram_icon{
+    width: 15px;
+}
+.footer .social_media_accounts .instagram_icon img{
+    width: 100%;
+}
+.footer .social_media_accounts .pinterest_icon{
+    width: 15px;
+}
+.footer .social_media_accounts .pinterest_icon img{
+    width: 100%;
+}
+
+.footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 100px;
+    color: rgb(32, 32, 32);
+    font-size: 13px;
+    padding-left: 50px;
+}
+
+.footer .copyright .payment_options{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer .copyright .payment_options .amex{
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer .copyright .payment_options .amex img{
+    width: 100%;
+}
+.footer .copyright .payment_options .apple_pay{
+    width: 30px;
+    margin-left: 20px;
+  margin-right: 20px;
+  }
+  .footer .copyright .payment_options .apple_pay img{
+      width: 100%;
+  }
+  .footer .copyright .payment_options .google_pay{
+    width: 30px;
+    margin-left: 20px;
+  margin-right: 20px;
+  }
+  .footer .copyright .payment_options .google_pay img{
+      width: 100%;
+      margin-left: 20px;
+  margin-right: 20px;
+  }
+  .footer .copyright .payment_options .mastercard{
+    width: 30px;
+    margin-left: 20px;
+  margin-right: 20px;
+  }
+  .footer .copyright .payment_options .mastercard img{
+      width: 100%;
+  }
+  .footer .copyright .payment_options .paypal{
+    width: 30px;
+    margin-left: 20px;
+  margin-right: 20px;
+  }
+  .footer .copyright .payment_options .paypal img{
+      width: 100%;
+  }
+  .footer .copyright .payment_options .opay{
+    width: 30px;
+    margin-left: 20px;
+  margin-right: 20px;
+  }
+  .footer .copyright .payment_options .opay img{
+      width: 100%;
+  }
+  .footer .copyright .payment_options .visa{
+    width: 30px;
+    margin-left: 20px;
+  margin-right: 20px;
+  }
+  .footer .copyright .payment_options .visa img{
+      width: 100%;
+  }
+
+
+  /* ========================================== */
+  /* seller page start */
+
+  .navigation_best_sellers{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('img/esq-homepage-banner-cu-mink-lashes-hq_1400x.jpg');
+    background-repeat: no-repeat;
+    /* background-position: ; */
+}
+
+.image_best_sellers{
+    padding: 25px 100px 3px 5px;
+}
+.banner_best_sellers .best_sellers{
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('img/esq-homepage-banner-cu-mink-lashes-hq_1400x.jpg');
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.banner_best_sellers .best_sellers h5{
+    font-size: 20px;
+    padding: 10px;
+}
+.banner_best_sellers .best_sellers p{
+    padding: 10px;
+}
+hr{
+    color: black;
+}
+
+.sec2_best_sellers{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 70px 30px 60px;
+    
+}
+
+.sec2_best_sellers .gel_liner_pencils .gel_liner_pencils_img{
+    width: 450px;
+}
+
+.sec2_best_sellers .gel_liner_pencils .gel_liner_pencils_img img{
+    width: 100%;
+}
+.gel_liner_pencils_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.sec2_best_sellers .lashes_best_sellers .lashes_best_sellers_img{
+    width: 400px;
+    padding: 30px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.lashes_best_sellers_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.sec2_best_sellers .lashes_best_sellers .lashes_best_sellers_img img{
+    width: 100%;
+}
+.sec2_best_sellers .companion_eyelash_glue .companion_eyelash_glue_img{
+    width: 400px;
+    padding-top: 50px;
+}
+.companion_eyelash_glue_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.sec2_best_sellers .companion_eyelash_glue .companion_eyelash_glue_img img{
+    width: 100%;
+}
+
+.sec3_best_sellers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.sec3_best_sellers .unforgettable{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec3_best_sellers .unforgettable .unforgettable_img{
+    width: 100%;
+}
+.sec3_best_sellers .unforgettable .unforgettable_img img{
+    width: 100%;
+}
+ .sec3_best_sellers .oh_so_sweet{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ }
+ .sec3_best_sellers .oh_so_sweet .oh_so_sweet_img{
+     width: 100%;
+ }
+ .sec3_best_sellers .oh_so_sweet .oh_so_sweet_img img{
+     width: 100%;
+ }
+ .sec3_best_sellers .apple_cinnamon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .sec3_best_sellers .apple_cinnamon .apple_cinnamon_img{
+     width: 100%;
+ }
+ .sec3_best_sellers .apple_cinnamon .apple_cinnamon_img img{
+     width: 100%;
+ }
+ .sec3_best_sellers .half_half{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .sec3_best_sellers .half_half .half_half_img{
+     width: 100%;
+ }
+ .sec3_best_sellers .half_half .half_half_img img{
+     width: 100%;
+ }
+
+ .table{
+     background-color: #f2f2f2;
+ }
+ .table .table_text{
+     display: flex;
+     justify-content: space-between;
+ }
+ .table .table_text .table_text_img{
+     width: 50px;
+     margin: 0px 10px 0px 30px;
+     border-right: 1px solid black;
+ }
+ .table .table_text .table_text_img img{
+     width: 100%;
+     padding-right: 10px;
+ }
+ 
+ .table .table_text .table_text_text{
+     display: flex;
+     justify-content: space-between;
+     padding: 0px 30px 0px 30px;
+     border-left: 1px solid black;
+ }
+ .table_text_text .sort{
+     padding-right: 60px;
+     padding-top: 15px;
+     
+ }
+ .table_text_text .filter{
+     padding-right: 30px;
+     border-left: 1px solid black;
+ }
+ .table_text_text .filter p{
+     padding-left: 10px;
+     padding-top: 15px;
+ }
+ .hr{
+     color: black;
+ }
+
+ .sec4_best_sellers{
+     display: flex;
+     flex-direction: column;
+     padding: 50px;
+     background-color: #f2f2f2;
+ }
+ .sec4_best_sellers .recently_viewed{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+ }
+ .sec4_best_sellers .recently_viewed p{
+     font-size: 20px;
+     letter-spacing: 2px;
+     font-weight: 400;
+ }
+
+.sec4_best_sellers .sec4_col_2{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 40px;
+}
+.sec4_gel_pencil_liner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec4_gel_pencil_liner p{
+    padding-top: 15px;
+}
+.sec4_gel_pencil_liner_img{
+    width: 250px;
+}
+.sec4_gel_pencil_liner_img img{
+    width: 100%;
+}
+.sec4_apple_cinnamon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec4_apple_cinnamon p{
+    padding-top: 15px;
+}
+.sec4_apple_cinnamon_img{
+    width: 250px;
+}
+.sec4_apple_cinnamon_img img{
+    width: 100%;
+}
+
+.sec4_companion_glue{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sec4_companion_glue p{
+    padding-top: 15px;
+}
+.sec4_companion_glue_img{
+    width: 200px;
+}
+.sec4_companion_glue_img img{
+    width: 100%;
+}
+.sec4_unforgettable{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec4_unforgettable p{
+    padding-top: 15px;
+}
+.sec4_unforgettable_img{
+    width: 250px;
+}
+.sec4_unforgettable_img img{
+    width: 100%;
+}
+.sec4_right_arrow{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.sec4_right_arrow img{
+    width: 100%;
+}
+
+.sec5_best_sellers{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('img/esqido-mink-lashes-lash-guide-banner_1500x_70c2c35f-9a0e-46c4-a9c7-e13e3b51b207_1500x.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec5_best_sellers .sec5_text{
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.sec5_best_sellers .sec5_text h5{
+    padding-bottom: 5px;
+    text-align: center;
+    
+    padding-right: 20px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.sec5_best_sellers .sec5_text p{
+    font-size: 15px;
+}
+.sec5_best_sellers .sec5_text a{
+    color: white;
+
+}
+
+/* end of best sellers 
+start of product view  */
+
+.navigation_product_view{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+.image_product{
+  padding: 25px 100px 3px 5px;
+    
+}
+.addtocartbutton{
+    display: flex;
+
+}
+
+.addtocartbutton button{
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 15px;
+    border: 1px solid black;
+    outline: black;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 15px;
+    transition: background-color 0.6s ease;
+    transition: color 0.6s ease; 
+}
+
+.addtocartbutton button:hover{
+   background-color: #f2f2f2;
+   color: black;
+
+}
+
+
+
+
